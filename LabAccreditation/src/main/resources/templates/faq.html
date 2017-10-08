@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layouts/metronic-page">
+<head>
+<title>ISO/IEC 17025: การรับรองระบบงานห้องปฏิบัติการทดสอบ สอบเทียบ </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div class="main" layout:fragment="content">
+		<div class="container">
+	        <ul class="breadcrumb">
+	        	<li><a href="javascript:;" th:href="@{/web/}">Home</a></li>
+	            <li><a href="javascript:;">Pages</a></li>
+	            <li class="active">คำถามที่พบบ่อย</li>
+	        </ul>
+	        
+	         <div class="row margin-bottom-40">
+	         	 <div class="tab-content" style="padding:0; background: #fff;">
+	         	 	 <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion1_1" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     1. ห้องปฏิบัติการจะมีความมั่นใจว่าผลการทดสอบของห้องปฏิบัติการเชื่อถือได้อย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion1_1">
+                                  <div class="panel-body">
+                                     ห้องปฏิบัติการต้องมีการประกันคุณภาพของผลการทดสอบโดยการควบคุมคุณภาพเพื่อเฝ้าระวังความใช้ได้ของการทดสอบ มีการวิเคราะห์ข้อมูลการควบคุมคุณภาพ และเมื่อพบข้อมูลที่ออกนอกเกณฑ์ที่กำหนด ต้องจัดทำแผนปฏิบัติการแก้ไขปัญหาและป้องกันการรายงานผลการทดสอบที่ไม่ถูกต้อง
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion2_1" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     2. ห้องปฏิบัติการจะมีแนวทางการเลือกวิธีทดสอบได้อย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion2_1">
+                                  <div class="panel-body">
+                                    <p> ห้องปฏิบัติการต้องใช้วิธีทดสอบที่เป็นไปตามความต้องการของลูกค้า และเหมาะสมสำหรับการทดสอบโดยต้องเลือกใช้วิธีการที่มีการตีพิมพ์ในมาตรฐานระหว่างประเทศ ระดับภูมิภาค หรือระดับประเทศตามลำดับ วิธีที่ห้องปฏิบัติการพัฒนาขึ้นมาเอง หรือวิธีที่ห้องปฏิบัติการรับมาใช้ ซึ่งอาจนำมาใช้ได้ถ้าเหมาะสมกับงานนั้นและได้รับการตรวจสอบความใช้ได้ของวิธี (method validation) แล้ว </p>
+                                    <p>แต่ก่อนที่จะนำวิธีทดสอบมาใช้จริงต้องพิจารณาว่าห้องปฏิบัติการมีองค์ประกอบต่างๆที่สามารถนำวิธีนั้นมาใช้ได้เช่น เครื่องมือ สารเคมี ภาวะแวดล้อม ลักษณะตัวอย่างที่จะทดสอบ ว่าเป็นไปตามที่วิธีกำหนดหรือไม่ หากพบว่าเป็นไปตามนั้นได้ ห้องปฏิบัติการก็ทำการทวนสอบวิธี (method verification) หากมีบางสิ่งที่แตกต่างไปจากวิธีที่กำหนดห้องปฏิบัติการต้องทำ method validation ตามความเหมาะสม </p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion3_1" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     3. ห้องปฏิบัติการมีหลักในการเลือกและสอบเทียบเครื่องมือที่ใช้ในการทดสอบอย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion3_1">
+                                  <div class="panel-body">
+                                    <p> ห้องปฏิบัติการต้องจัดให้มีเครื่องมือและอุปกรณ์ต่าง ๆ ทั้งหมดที่ส่งผลกระทบต่อความถูกต้องของการทดสอบ และต้องสามารถให้ผลการทดสอบที่มีค่าความแม่นตามที่วิธีทดสอบกำหนด ในวิธีทดสอบนั้น เครื่องมือใดที่ส่งผลกระทบต่อความถูกต้องของผลการทดสอบต้องได้รับการสอบเทียบหรือทวนสอบตามระยะเวลาที่กำหนด เพื่อมั่นใจได้ว่าเครื่องมือดังกล่าวยังคงอ่านค่าได้อย่างถูกต้อง โดยส่งไปสอบเทียบที่ห้องปฏิบัติการสอบเทียบที่ได้รับการรับรองความสามารถห้องปฏิบัติการตามมาตรฐาน ISO/IEC17025 ในช่วงการทดสอบ หรือ อาจสอบเทียบภายในห้องปฏิบัติการของตนเองซึ่งต้องมีวิธีสอบเทียบที่ถูกต้องเหมาะสม มีมาตรฐานอ้างอิงที่สามารถสอบกลับได้ถึงหน่วย เอส ไอ มีหลักฐานที่แสดงถึงความสามารถบุคลากรที่สอบเทียบ รวมทั้งภาวะแวดล้อมที่เหมาะสม</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                       <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion4_1" data-parent="#accordion4" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     4. ห้องปฏิบัติการมีหลักในการกำหนดเกณฑ์ควบคุม ของปัจจัยต่างๆที่อาจมีผลกระทบต่อการทดสอบ เช่น น้ำหนักตัวอย่าง อุณหภูมิ และเวลาอย่างไร ในกรณีที่วิธีมาตรฐานไม่ได้ระบุเกณฑ์ควบคุมของปัจจัยต่างๆที่อาจมีผลกระทบต่อการทดสอบ เช่น น้ำหนักตัวอย่าง อุณหภูมิ และเวลา
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion4_1">
+                                  <div class="panel-body">
+                                    <p> ห้องปฏิบัติการต้องการศึกษาเพื่อกำหนดเกณฑ์ควบคุมโดยประเมินค่าจาก robustness/ruggedness โดยใช้สถิติที่เหมาะสม เช่น T-test, One-way ANOVA ฯลฯ และนำมากำหนดเป็นเกณฑ์การยอมรับของห้องปฏิบัติการ เช่น อุณหภูมิที่ใช้อบแห้ง (± ๐C) ทั้งนี้ปัจจัยที่ศึกษาเกณฑ์ควบคุมต้องมีการเปลี่ยนแปลงเพียงเล็กน้อยและเป็นการกำหนดเพื่อความสะดวกต่อปฏิบัติงานเท่านั้น</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                       <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion5_1" data-parent="#accordion5" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     5. ห้องปฏิบัติการต้องทำอย่างไรในกรณีที่ไม่มีผู้จัดโปรแกรมการทดสอบความชำนาญห้องปฏิบัติการในรายการทดสอบที่ขอรับการรับรอง
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion5_1">
+                                  <div class="panel-body">
+                                    <p> ถ้าไม่มีผู้จัดโปรแกรมการทดสอบความชำนาญห้องปฏิบัติการ ห้องปฏิบัติการต้องทำการเปรียบเทียบผลระหว่างห้องปฏิบัติการ (inter-laboratory comparison) ซึ่งควรคำนึงถึงความน่าเชื่อถือและจำนวนของห้องปฏิบัติการที่เข้าร่วม ทั้งนี้การประเมินผลควรเลือกใช้สถิติที่เหมาะสมโดยนำค่าไม่แน่นอนของผลการวัดมาให้พิจารณา</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion6_1" data-parent="#accordion6" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     6.  สำนักบริหารและรับรองห้องปฏิบัติการมีหลักเกณฑ์ในการให้การรับรองอย่างไร ในกรณีที่ห้องปฏิบัติการมีการดัดแปลงวิธีทดสอบทางจุลชีววิทยา
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion6_1">
+                                  <div class="panel-body">
+                                    <p>การเปลี่ยนแปลงวิธีที่ส่งผลกระทบต่อผลการทดสอบเล็กน้อย เช่น การเปลี่ยนแปลงปริมาตรบัฟเฟอร์ การเปลี่ยนแปลงน้ำหนักตัวอย่างที่เป็นของเหลวหรือผงละเอียดและมีความเป็นเนื้อเดียวกัน ห้องปฏิบัติการต้องตรวจสอบความใช้ได้ของวิธี และสำนักให้การรับรองเป็น in-house method</p>
+                                    <p>การเปลี่ยนแปลวิธีในส่วนที่สำคัญ เช่น การเปลี่ยนแปลงอุณหภูมิในการบ่ม, การเปลี่ยนแปลงอาหารเลี้ยงเชื้อห้องปฏิบัติการต้องตรวจสอบความใช้ได้ของวิธีแบบเต็มรูปแบบ (full method validation) และสำนักให้การรับรองเป็น in-house method</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion7_1" data-parent="#accordion7" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     7.หน่วยงานด้านกฎระเบียบ (Regulatory body) ยอมรับผลการทดสอบจากห้องปฏิบัติการที่ได้รับการรับรองหรือไม่
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion7_1">
+                                  <div class="panel-body">
+                                    <p>หน่วยงานด้านกฎระเบียบ เป็นหน่วยงานกลางด้านมาตรฐาน โดยกำหนดตรวจสอบรับรอง ควบคุม และส่งเสริมมาตรฐานของสินค้าให้มีคุณภาพและความปลอดภัยตามมาตรฐานสากล</p>
+                                    <p>ในปัจจุบันสำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ กองตรวจสอบรับรองมาตรฐานคุณภาพสัตว์น้ำและผลิตภัณฑ์สัตว์น้ำ กรมปศุสัตว์ ได้นำผลการรับรองความสามารถห้องปฏิบัติการของสำนักบริหารและรับรองห้องปฏิบัติการไปใช้ประโยชน์ในการขึ้นทะเบียนห้องปฏิบัติการ ผู้ผลิต ผู้ส่งออก สามารถนำใบรายงานผลการทดสอบวิเคราะห์จากห้องปฏิบัติที่ขึ้นทะเบียนกับ 3 หน่วยงานดังกล่าวข้างต้น มาประกอบการขอใบรับรองสุขอนามัย (Health Certificate) จากหน่วยงานภาครัฐที่มีอำนาจหน้าที่ เช่น กรมประมง กรมปศุสัตว์ กรมวิชาการเกษตร โดยไม่ต้องนำสินค้าดังกล่าวมาทดสอบวิเคราะห์ซ้ำอีกครั้ง ซึ่งจะเห็นได้ว่า แต่ละหน่วยงานต้องมีความสัมพันธ์เชื่อมโยงกัน และเกื้อหนุนซึ่งกันและกัน เพื่อประโยชน์ในการให้ความคุ้มครองผู้บริโภค</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion8_1" data-parent="#accordion8" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     8.การรับรองชุดทดสอบ (Test kit) มีแนวทางการพิจารณาอย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion8_1">
+                                  <div class="panel-body">
+                                    <b>ห้องปฏิบัติการใช้ชุดทดสอบที่ได้รับการรับรอง (approved) โดยหน่วยงานที่น่าเชื่อถือ เช่น  AOAC ให้ดำเนินการดังนี้</b>
+                                    <ol>
+                                    	<li>แสดงหลักฐาน เช่น ข้อมูล validation หรือใบรับรอง (Certificate) ที่เป็นปัจจุบันจากผู้ผลิต/ผู้จำหน่าย </li>
+                                    	<li>วิธีการทดสอบที่อ้างถึงในใบรับรองฯ จะอ้างอิงตามชุดทดสอบนั้นๆ เช่น  3M หรืออ้างอิงตามวิธีทดสอบที่ให้การรับรอง เช่น  AOAC, AFNOR,VICAM</li>
+                                    </ol>
+                                    <p>ห้องปฏิบัติการต้องทำการทวนสอบว่าสามารถนำชุดทดสอบนั้นมาใช้ทดสอบกับตัวอย่างที่ห้องปฏิบัติการจะขอการรับรองได้อย่างถูกต้อง และเที่ยง</p>
+                                    <br/>
+                                    <b>ห้องปฏิบัติการใช้ชุดทดสอบที่ยังไม่ผ่านการรับรอง (not approved) โดยหน่วยงานที่ น่าเชื่อถือ ให้ดำเนินการดังนี้</b>
+                                     <ol>
+                                    	<li>ห้องปฏิบัติการต้องตรวจสอบความใช้ได้ของวิธีให้ครอบคลุมชนิดตัวอย่าง (matrix) ที่ห้องปฏิบัติการขอการรับรอง และขอข้อมูลจากบริษัทที่จำหน่ายมาประกอบ</li>
+                                    	<li>วิธีการทดสอบที่อ้างถึงในใบรับรอง จะอ้างอิงตามชุดทดสอบนั้นๆ</li>
+                                    </ol>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                       <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion9_1" data-parent="#accordion9" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     9. การทดสอบทางจุลชีววิทยา กรณีที่ดำเนินการตามวิธีมาตรฐานต้องทวนสอบวิธีอย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion9_1">
+                                  <div class="panel-body">
+                                    <p>ห้องปฏิบัติการต้องทวนสอบวิธี (Verification)</p>
+                                    <p>1. เชิงคุณภาพ (Qualitative) </p>
+                                    	<ul>
+                                    		<li>ทำ LOD<sub>50</sub> จำนวน 6 ตัวอย่าง</li>
+                                    	</ul>
+                                    <p>2. เชิงปริมาณ (Quantitative) </p>
+                                 	   <ul>
+                                    		<li>ตรวจสอบ bias โดยใช้ผล PT </li>
+											<li>ตรวจสอบ precision โดย
+												<ol>
+													<li>repeatability: คนเดียวแตกต่าง ≤ 5% , ต่างคนแตกต่าง ≤ 10%</li>
+													<li>reproducibility: ความแตกต่างไม่เกิน 0.5 log หรือไม่เกิน precision criteria หรือ 3SR เป็นต้น </li>
+												</ol>
+											
+											</li>
+                                    	</ul>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion10_1" data-parent="#accordion10" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     10. วิธีทดสอบอาหาร อาหารสัตว์ และผลิตภัณฑ์ ที่เป็น empirical method เช่น รายการความชื้น เถ้า โปรตีน ไขมัน และ กาก เป็นต้น ห้องปฏิบัติการต้¬องดําเนินการตามที่กําหนดไว้¬ในวิธีมาตรฐานทุกประการ  ห้องปฏิบัติการต้องมีแนวทางการทวนสอบสมรรถนะของห้องปฏิบัติการ (method verification) อย่างไร
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion10_1">
+                                  <div class="panel-body">
+                                   <ol>
+                                   	<li>method bias: วิธีทดสอบที่เป็น empirical method ถือวา method bias เป็น 0 จึง ไม่ต้องตรวจสอบ method bias (trueness)</li>
+                                   	<li>precision:
+                                   		<ul>
+                                   			<li>กรณีมีการระบุข้อมูล precision ไว้ในวิธีมาตรฐาน ให้ตรวจสอบ precision ใช้ข้อมูล precision ที่ระบุในวิธีมาตรฐานเป็นเกณฑ์ หากไม่สอดคล้องกัน ห้องปฏิบัติการต้องพิสูจน์ว่าความไมสอดคล้องนั้นไม่มีนัยสําคัญโดยใช้สถิติที่เหมาะสม เช่นChi-Square Test เป็นต้น
+                                   			</li>
+                                   			
+                                   			<li>กรณีไมมีการระบุข้อมูล precision ไว้ในวิธีมาตรฐานห้องปฏิบัติการต้องพิสูจน์ precision โดยนําข้อมูล precision ที่ได้จากผลการทดสอบที่มีจํานวนมากพอ (long term) มาประมาณค่า maximum total relative uncertainty ที่เป็นไปได้ โดยค่าดังกล่าวต้องเหมาะสมต่อการนําไปใช้ และผู้ตรวจประเมินจะต้องมีการตรวจสอบคา uncertainty ให้มั่นใจวามีความเหมาะสม</li>
+                                   		</ul>
+                                   	</li>
+                                   </ol>
+                                   <p>*** horwitz equation และ HORRAT ไมเหมาะสมที่จะใช้เป็น เกณฑ์ประเมิน precision สําหรับวิธีทดสอบแบบ empirical</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a href="#accordion11_1" data-parent="#accordion11" data-toggle="collapse" class="accordion-toggle collapsed">
+                                     11.ห้องปฏิบัติการสามารถทำการดัดแปลงจากวิธีทดสอบที่เป็น empirical method ได้หรือไม่
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div class="panel-collapse collapse" id="accordion11_1">
+                                  <div class="panel-body">
+                                    <p>สํานักบริหารและรับรองห้องปฏิบัติการ ยอมให้ดัดแปลงจากวิธีมาตรฐานในรายการ โปรตีน ไขมัน กาก เฉพาะส่วนที่ไม่มีนัยสำคัญต่อผลการทดสอบเท่านั้น ทั้งนี้ขอบข่ายการใช้งานต้องเป็นไปตามขอบขายที่ระบุไว้ใน standard method เท่านั้น โดยต้องกําหนดขอบข่ายการใช้งานที่ชัดเจน และพิสูจน์การใช้งานในแต่ละ matrix</p>
+                                    <p>ซึ่งสํานักบริหารและรับรองห้องปฏิบัติการให้การรับรองเป็น In-house method based on (standard ……)</p>
+                                  </div>
+                               </div>
+                            </div>
+                      </div>
+	         	 </div>
+	         </div>
+        
+        </div>
+	</div>
+	
+	<div layout:fragment="pageScript">
+
+	</div>
+</body>
+</html>

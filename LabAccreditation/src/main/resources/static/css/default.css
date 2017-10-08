@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: prompt;
+    src: url(../fonts/prompt/Prompt-Medium.ttf);
+}
+
+@font-face {
+    font-family: prompt-light;
+    src: url(../fonts/prompt/Prompt-Light.ttf);
+}

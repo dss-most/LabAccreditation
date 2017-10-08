@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<!--
+Template: Metronic Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+Version: 1.0.0
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+  <meta charset="utf-8">
+  <title>การรับรองระบบงานห้องปฏิบัติการทดสอบ สอบเทียบ ISO/IEC 17025</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta property="og:site_name" content="-CUSTOMER VALUE-">
+  <meta property="og:title" content="-CUSTOMER VALUE-">
+  <meta property="og:description" content="-CUSTOMER VALUE-">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+  <meta property="og:url" content="-CUSTOMER VALUE-">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Fonts START -->
+  
+  <!-- Fonts END -->
+
+  <!-- Global styles START -->          
+  <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
+	      th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"
+	      rel="stylesheet" media="screen" />
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+		th:href="@{/webjars/font-awesome/css/font-awesome.min.css}" />
+		
+    <link rel="stylesheet" href="default.css"
+		th:href="@{/static/css/default.css}" />	
+  <!-- Global styles END --> 
+   
+  <!-- Page level plugin styles START -->
+
+
+  <!-- Page level plugin styles END -->
+
+  <!-- Theme styles START -->
+  <link href="assets/pages/css/components.css" th:href="@{/static/metronic/css/components.css}" rel="stylesheet">
+  <link href="assets/pages/css/slider.css"  th:href="@{/static/metronic/css/slider.css}" rel="stylesheet">
+  <link href="assets/corporate/css/style.css" th:href="@{/static/metronic/css/style.css}" rel="stylesheet">
+  <link href="assets/corporate/css/style-responsive.css" th:href="@{/static/metronic/css/style-responsive.css}" rel="stylesheet">
+  <link href="assets/corporate/css/themes/red.css" th:href="@{/static/metronic/css/themes/red.css}" rel="stylesheet" id="style-color">
+  <!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+
+    <!-- BEGIN TOP BAR -->
+    <div class="pre-header" th:replace="layouts/fragments/pre-header :: pre-header">
+    </div>
+    
+    <!-- END TOP BAR -->
+    <!-- BEGIN HEADER -->
+    <div class="header" th:replace="layouts/fragments/header :: header">
+    </div>
+
+    <!-- Header END -->
+
+    <!-- BEGIN SLIDER -->
+    <div class="page-slider margin-bottom-40">
+        <div id="carousel-example-generic" class="carousel slide carousel-slider">
+            <!-- Indicators -->
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <!-- First slide -->
+                <div class="item carousel-item-eight active">
+                    <div class="container">
+                        <div class="carousel-position-six text-uppercase text-center">
+                            <h2 class="carousel-title-v5" style="margin-bottom:-10px;">
+                               <span class="carousel-title-normal"> มาตรฐานการรับรองระบบงานห้องปฏิบัติการทดสอบ/สอบเทียบ </span>
+                               
+                            </h2>
+                            <h2 class="carousel-title-v4">
+                             	<span class="carousel-title-normal">ISO/IEC 17025</span>
+                            </h2>
+                            <a class="carousel-btn-green" href="#">รู้จัก ISO/IEC 17025</a>
+                            <a class="carousel-btn-green" href="#">เอกสารข้อกำหนด</a>
+                            <a class="carousel-btn-green" href="#">รายชื่อห้องปฏิบัติการที่ได้รับการรับรอง</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+           
+        </div>
+    </div>
+    <!-- END SLIDER -->
+
+    <div class="main">
+      <div class="container">
+        <!-- BEGIN SERVICE BOX -->   
+        <div class="row service-box margin-bottom-40">
+          <div class="col-md-3 col-sm-3">
+            <div class="service-box-heading">
+              <a href="#"><em><i class="fa fa-location-arrow pale-navy"></i></em>
+              <span>สำรวจความพร้อม</span></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="service-box-heading">
+              <a href="#"><em><i class="fa fa-book pale-red"></i></em>
+              <span>ขอการรับรอง</span></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="service-box-heading">
+              <a href="#"><em><i class="fa fa fa-check pale-orange"></i></em>
+              <span>ตรวจสอบสถานะ</span></a>
+            </div>
+          </div>
+		<div class="col-md-3 col-sm-3">
+            <div class="service-box-heading">
+              <a href="#" th:href="@{/web/faq}"><em><i class="fa fa-question pale-green"></i></em>
+              <span>คำถามที่พบบ่อย</span></a>
+            </div>
+          </div>
+        </div>
+        <!-- END SERVICE BOX -->
+
+		<div class="row margin-bottom-40">
+			<div class="col-md-9 col-sm-9">
+
+		        <!-- BEGIN BLOCKQUOTE BLOCK -->   
+		        <div class="row quote-v1 margin-bottom-30">
+		          <div class="col-md-9">
+		            <span style="font-family: 'Prompt'">News & Updates</span>
+		          </div>
+		          <div class="col-md-3 text-right">
+		            <a class="btn-transparent" href="#"><i class="fa fa-chevron-circle-right margin-right-10"></i>ดูเพิ่มเติม</a>
+		          </div>
+		        </div>
+		        <!-- END BLOCKQUOTE BLOCK -->
+				
+				<!-- Begin Blog -->
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+                              <img  class="img-responsive" alt="" src="assets/pages/img/works/img1.jpg" th:src="@{/static/graphics/news/rsz_img_9015.jpg}">
+                        </div>
+					</div>
+					<div class="col-md-8 col-sm-8">
+                      <h3><a href="blog-item.html">กรมวิทยาศาสตร์บริการต้อนรับหน่วยรองรับระบบงานของประเทศญี่ปุ่น (IAJapan) เข้าเยี่ยมชม การปฏิบัติงานของสำนักบริหารและรับห้องห้องปฏิบัติการ</a></h3>
+                      <ul class="blog-info">
+                        <li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                       
+                      </ul>
+                      <p>กรมวิทยาศาสตร์บริการ กระทรวงวิทยาศาสตร์และเทคโนโลยี  โดยนางดุษฏี มั่นความดี ผู้อำนวยการการสำนักบริหารและรับรองห้องปฏิบัติการ เป็นประธานและกล่าวต้อนรับคณะผู้แทนจากหน่วยงานรับรองระบบงานของประเทศญี่ปุ่น International Accreditation Japan (IAJapan) ได้แก่ Mr. Isao Fujita , Executive Assistant to Chief Executive และ Ms.Kahori Ono, Assitant staff, International Affairs Group  ในวันที่ 4 ตุลาคม 2560   ณ ห้องประชุม 610 ชั้น 6 อาคารหอสมุดฯ  กรมวิทยาศาสตร์บริการ</p>
+                      <a href="blog-item.html" class="more">Read more <i class="icon-angle-right"></i></a>
+                    </div>
+				</div>
+				<hr class="blog-post-sep">
+				<!-- End Blog -->
+				
+				<!-- Begin Blog -->
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+                               <img  class="img-responsive" alt="" src="assets/pages/img/works/img1.jpg" th:src="@{/static/graphics/news/_MG_4659.jpg}">
+                        </div>
+					</div>
+					<div class="col-md-8 col-sm-8">
+                      <h3><a href="blog-item.html">กรมวิทยาศาสตร์บริการจัดพิธีมอบใบรับรองระบบงานห้องปฏิบัติการให้กับ 5 หน่วยงาน</a></h3>
+                      <ul class="blog-info">
+                        <li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                       
+                      </ul>
+                      <p>วันที่ 25 ตุลาคม 2559 ดร.สุทธิเวช ต.แสงจันทร์ อธิบดีกรมวิทยาศาสตร์บริการ เป็นประธานในพิธีมอบใบรับรองระบบงานห้องปฏิบัติการ ร่วมด้วยคณะผู้บริหารกรมวิทยาศาสตร์บริการ ณ ห้องประชุมอัครเมธี ชั้น 6 อาคารตั้ว ลพานุกรม โดยนางดุษฎี มั่นความดี ผู้อำนวยการสำนักบริหารและรับรองห้องปฏิบัติการกล่าวรายงานข้อมูลของหน่วยงานที่ได้รับการรับรองฯ</p>
+                      <a href="blog-item.html" class="more">Read more <i class="icon-angle-right"></i></a>
+                    </div>
+				</div>
+				<hr class="blog-post-sep">
+				<!-- End Blog -->
+				
+				
+				<!-- Begin Blog -->
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+                              <img  class="img-responsive" alt="" src="assets/pages/img/works/img1.jpg" th:src="@{/static/graphics/news/rsz_img_5293.jpg}">
+                        </div>
+					</div>
+					<div class="col-md-8 col-sm-8">
+                      <h3><a href="blog-item.html">กรมวิทยาศาสตร์บริการ กระทรวงวิทยาศาสตร์และเทคโนโลยี จัดสัมมนา เรื่อง “การสร้างความตระหนักการจัดการสารเคมีในห้องปฏิบัติการที่ยั่งยืน”</a></h3>
+                      <ul class="blog-info">
+                        <li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                       
+                      </ul>
+                      <p>กรมวิทยาศาสตร์บริการ กระทรวงวิทยาศาสตร์และเทคโนโลยี  โดย ดร.สุทธิเวช ต.แสงจันทร์ อธิบดีกรมวิทยาศาสตร์บริการ เป็นประธานในการเปิด การสัมมนา เรื่อง “การสร้างความตะหนักการจัดการสารเคมีในห้องปฏิบัติการที่ยั่งยืน” และกล่าวรายงาน โดย ดร.จันทร์เพ็ญ เมฆาอภิรักษ์ ผู้อำนวยการสำนักพัฒนาศักยภาพนักวิทยาศาสตร์ห้องปฏิบัติการ และผู้เข้าร่วมสัมมนาจากห้องปฏิบัติการ ภาครัฐ เอกชน รัฐวิสาหกิจ และสถาบันการศึกษากว่า 250 คน ในวันที่ 20 กันยายน 2560 ณ ห้องประชุม  ภูมิบดินทร์ ชั้น 6 อาคารสถานศึกษาเคมีปฏิบัติ กรมวิทยาศาสตร์บริการ</p>
+                      <a href="blog-item.html" class="more">Read more <i class="icon-angle-right"></i></a>
+                    </div>
+				</div>
+				<hr class="blog-post-sep">
+				<!-- End Blog -->
+
+			</div>
+		
+			<div class="col-md-3 col-sm-3 blog-sidebar">
+				<h2>Database</h2>
+				<ul class="nav sidebar-categories margin-bottom-40">
+					<li><a href="#">ข้อมูล Training</a></li>
+					<li><a href="#">ข้อมูล PT</a></li>
+					<li><a href="#">ข้อมูล RM</a></li>
+					<li><a href="#">ข้อมูลหน่วยงานสอบเทียบ</a></li>
+				</ul>
+				
+				<h2>วารสารเผยแพร่</h2>
+				<ul class="nav sidebar-categories margin-bottom-40">
+					<li><a href="#">บร. สาร</a></li>
+				</ul>
+				
+				<h2>บทความน่าสนใจ</h2>
+				<ul class="nav sidebar-categories margin-bottom-40">
+					<li><a href="#">Regulator & ISO/IEC 17025</a></li>
+				</ul>
+			</div>
+		</div>
+
+    </div>
+	</div>
+    <!-- BEGIN PRE-FOOTER -->
+    <div class="pre-footer" th:replace="layouts/fragments/pre-footer :: pre-footer">
+    </div>
+    <!-- END PRE-FOOTER -->
+
+    <!-- BEGIN FOOTER -->
+    <div class="footer" th:replace="layouts/fragments/footer :: footer">
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <![endif]--> 
+	<script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.3/jquery.js"
+	        th:src="@{/webjars/jquery/jquery.js}"></script>
+		
+	<script src="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/js/bootstrap.js"
+	        th:src="@{/webjars/bootstrap/js/bootstrap.js}"></script>
+
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+	 <script src="assets/corporate/scripts/layout.js" 
+	 	th:src="@{/static/metronic/js/layout.js}" type="text/javascript"></script>
+	
+		 <script src="assets/corporate/scripts/layout.js" 
+	 	th:src="@{/static/metronic/js/widgets.js}" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();    
+            // Layout.initOWL();
+            // Layout.initTwitter();
+            //Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+            //Layout.initNavScrolling(); 
+        });
+	</script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

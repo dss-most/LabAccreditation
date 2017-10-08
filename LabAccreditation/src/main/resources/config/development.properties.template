@@ -1,0 +1,10 @@
+#config.datasource.jdbc.url=jdbc:mysql://192.168.96.8/mstq?useUnicode=true&characterEncoding=utf-8
+config.datasource.jdbc.url=jdbc:mysql://192.168.98.128/labaccreditation?useUnicode=true&characterEncoding=utf-8
+#config.datasource.jdbc.url=jdbc:mysql://simon.dss.local/mstq
+config.datasource.jdbc.username=labaccreditation
+config.datasource.jdbc.password=labaccreditation
+config.datasource.jdbc.driver=com.mysql.jdbc.Driver
+
+config.logback.level=debug
+config.logback.appender=console
+

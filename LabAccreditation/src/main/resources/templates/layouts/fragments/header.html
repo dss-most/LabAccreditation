@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<!--
+Template: Metronic Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+Version: 1.0.0
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+  <meta charset="utf-8">
+  <title>การรับรองระบบงานห้องปฏิบัติการทดสอบ สอบเทียบ ISO/IEC 17025</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta property="og:site_name" content="-CUSTOMER VALUE-">
+  <meta property="og:title" content="-CUSTOMER VALUE-">
+  <meta property="og:description" content="-CUSTOMER VALUE-">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+  <meta property="og:url" content="-CUSTOMER VALUE-">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Fonts START -->
+  
+  <!-- Fonts END -->
+
+  <!-- Global styles START -->          
+  <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
+	      th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"
+	      rel="stylesheet" media="screen" />
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+		th:href="@{/webjars/font-awesome/css/font-awesome.min.css}" />
+		
+    <link rel="stylesheet" href="default.css"
+		th:href="@{/static/css/default.css}" />	
+  <!-- Global styles END --> 
+   
+  <!-- Page level plugin styles START -->
+
+
+  <!-- Page level plugin styles END -->
+
+  <!-- Theme styles START -->
+  <link href="assets/pages/css/components.css" th:href="@{/static/metronic/css/components.css}" rel="stylesheet">
+  <link href="assets/pages/css/slider.css"  th:href="@{/static/metronic/css/slider.css}" rel="stylesheet">
+  <link href="assets/corporate/css/style.css" th:href="@{/static/metronic/css/style.css}" rel="stylesheet">
+  <link href="assets/corporate/css/style-responsive.css" th:href="@{/static/metronic/css/style-responsive.css}" rel="stylesheet">
+  <link href="assets/corporate/css/themes/red.css" th:href="@{/static/metronic/css/themes/red.css}" rel="stylesheet" id="style-color">
+  <!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+
+    <!-- BEGIN HEADER -->
+    <div class="header" th:fragment="header">
+      <div class="container">
+        
+         <a class="site-logo" href="#"><img th:src="@{/static/graphics/logo/logo-ISOIEC17025.png}" alt="ISO/IEC 17025"></a>
+
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+        <!-- BEGIN NAVIGATION -->
+        <div class="header-navigation pull-right font-transform-inherit">
+          <ul>
+            <li>
+              <a href="#" th:href="@{/web/}">
+                Home 
+              </a>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                ข้อมูลต่างๆ
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a href="index.html">เอกสาร download 1</a></li>
+                <li><a href="index.html">เอกสาร download 2 </a></li>
+              </ul>              
+            </li>
+           
+            <li><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                แผนผังเว็บไซต์
+              </a>
+            </li>
+
+ 
+            <!-- BEGIN TOP SEARCH -->
+            <li class="menu-search">
+              <span class="sep"></span>
+              <i class="fa fa-search search-btn"></i>
+              <div class="search-box">
+                <form action="#">
+                  <div class="input-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </span>
+                  </div>
+                </form>
+              </div> 
+            </li>
+            <!-- END TOP SEARCH -->
+          </ul>
+        </div>
+        <!-- END NAVIGATION -->
+      </div>
+    </div>
+    <!-- Header END -->
+
+
+
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <![endif]--> 
+	<script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.3/jquery.js"
+	        th:src="@{/webjars/jquery/jquery.js}"></script>
+		
+	<script src="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/js/bootstrap.js"
+	        th:src="@{/webjars/bootstrap/js/bootstrap.js}"></script>
+
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+	 <script src="assets/corporate/scripts/layout.js" 
+	 	th:src="@{/static/metronic/js/layout.js}" type="text/javascript"></script>
+	
+		 <script src="assets/corporate/scripts/layout.js" 
+	 	th:src="@{/static/metronic/js/widgets.js}" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();    
+            // Layout.initOWL();
+            // Layout.initTwitter();
+            //Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+            //Layout.initNavScrolling(); 
+        });
+	</script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
