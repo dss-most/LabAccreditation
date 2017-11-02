@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layouts/metronic-page">
+<head>
+<title>ISO/IEC 17025: การรับรองระบบงานห้องปฏิบัติการทดสอบ สอบเทียบ </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div class="main" layout:fragment="content">
+		<div class="container">
+	        <ul class="breadcrumb">
+	        	<li><a href="javascript:;" th:href="@{/web/}">Home</a></li>
+	            <li><a href="javascript:;">Pages</a></li>
+	            <li class="active">ยื่นขอการรับรอง</li>
+	        </ul>
+		
+			<div class="row margin-bottom-40">			
+				<div class="row margin-bottom-40">			
+					<div class="col-md-3">
+						<div class="list-group">
+						  <a href="#" th:href="@{/web/application}" class="list-group-item">
+						    <h4 class="list-group-item-heading">1. ข้อมูลเบื้องต้น</h4>
+						    <p class="list-group-item-text">ข้อมูลทั่วไปเกี่ยวกับการยื่นขอการรับรอง</p>
+						  </a>
+						  <a href="#" th:href="@{/web/application2}" class="list-group-item ">
+						    <h4 class="list-group-item-heading">2. ข้อกำหนดด้านบริหาร</h4>
+						    <p class="list-group-item-text">เอกสารหลักฐานประกอบ</p>
+						  </a>
+						  <a href="#" th:href="@{/web/application3}" class="list-group-item ">
+						    <h4 class="list-group-item-heading">3. ข้อกำหนดด้านวิชาการ</h4>
+						    <p class="list-group-item-text">เอกสารหลักฐานประกอบ</p>
+						  </a>
+						  <a href="#" th:href="@{/web/application4}" class="list-group-item active">
+						    <h4 class="list-group-item-heading">4. บุคลากรในระบบคุณภาพ</h4>
+						    <p class="list-group-item-text">รายชื่อ คุณวุฒิ ประสบการณ์ และหน้าที่ความรับผิดชอบของเจ้าหน้าที่ </p>
+						  </a>
+						   <a href="#" class="list-group-item disabled">
+						    <h4 class="list-group-item-heading">5. ขอบข่ายที่ยื่นขอการรับรอง</h4>
+						    <p class="list-group-item-text">ระบุขอบข่ายที่ยื่นขอการรับรองในครั้งนี้</p>
+						  </a>
+						   <a href="#" class="list-group-item disabled">
+						    <h4 class="list-group-item-heading">6. เครื่องมือหลักที่สำคัญ</h4>
+						    <p class="list-group-item-text">ระบุชื่อเครื่องมือและรายการที่ทดสอบและรายละเอียดของเครื่องมือ</p>
+						  </a>
+						  <a href="#" class="list-group-item disabled">
+						    <h4 class="list-group-item-heading">7. มาตรฐานอ้างอิง</h4>
+						    <p class="list-group-item-text">ระบุชื่อมาตรฐานอ้างอิง รายการที่ทดสอบและการใช้งาน</p>
+						  </a>
+						  <a href="#" class="list-group-item disabled">
+						    <h4 class="list-group-item-heading">8. วัสดุอ้างอิงรับรอง/วัสดุอ้างอิง</h4>
+						    <p class="list-group-item-text">ระบุชื่อวัสดุอ้างอิง รายการที่ทดสอบ</p>
+						  </a>
+						</div>
+						
+					</div>
+ 				
+ 					<div class="col-md-9">
+ 						<a href="#" th:href="@{/web/application3}" class="btn btn-primary pull-left" role="button">PREVIOUS STEP</a>
+ 						<a href="#" th:href="@{/web/application5}" class="btn btn-primary pull-right" role="button">NEXT STEP</a>
+ 					</div>
+
+
+				
+			</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<div layout:fragment="pageScript">
+
+	</div>
+</body>
+</html>

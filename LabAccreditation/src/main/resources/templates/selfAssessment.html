@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layouts/metronic-page">
+<head>
+<title>ISO/IEC 17025: การรับรองระบบงานห้องปฏิบัติการทดสอบ สอบเทียบ </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div class="main" layout:fragment="content">
+		<div class="container">
+	        <ul class="breadcrumb">
+	        	<li><a href="javascript:;" th:href="@{/web/}">Home</a></li>
+	            <li><a href="javascript:;">Pages</a></li>
+	            <li class="active">สำรวจความพร้อม</li>
+	        </ul>
+	        
+	      <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12 col-sm-12">
+          	          
+          		<h1>สำรวจความพร้อมตนเอง</h1>
+          	  <div class="container">
+  				<div class="row">
+  					
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">1. นโยบายคุณภาพ</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item1_1" type="checkbox">
+								    <label for="item1_1">แสดงความมุ่งมั่นปฏิบัติงานอย่างมืออาชีพ</label>
+								
+								    <input id="item1_2" type="checkbox">
+								    <label for="item1_2">กำหนดวัตถุประสงค์โดยรวม (Objective)</label>
+								
+								    <input id="item1_3" type="checkbox">
+								    <label for="item1_3">มีมาตรฐานการให้บริการ</label>
+								
+								    <input id="item1_4" type="checkbox">
+								    <label for="item1_4">มีนโยบายการสื่อสารภายในองค์กร</label>
+								
+								    <input id="item1_5" type="checkbox">
+								    <label for="item1_5">บุคลากรทำความคุ้นเคยกับเอกสารคุณภาพ และนำไปปฏิบัติ</label>
+								
+								    <input id="item1_6" type="checkbox">
+								    <label for="item1_6">แสดงความมุ่งมั่นพัฒนา/ปรับปรุงระบบบริหารงานอย่างต่อเนื่อง</label>
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">2. โครงสร้างองค์กร</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item2_1" type="checkbox">
+								    <label for="item2_1">กำหนดโครงสร้างองค์กรและการบริหารของห้องปฏิบัติการ (ผังองค์กร)</label>
+								
+								    <input id="item2_2" type="checkbox">
+								    <label for="item2_2">กำหนดความรับผิดชอบ อำนาจหน้าที่ และความสัมพันธ์ของบุคลากรทั้งหมด</label>
+								
+								    <input id="item2_3" type="checkbox">
+								    <label for="item2_3">มีกระบวนการสื่อสารเพื่อความมีประสิทธิผลของการบริหารงาน</label>
+								
+								    <input id="item2_4" type="checkbox">
+								    <label for="item2_4">มีผู้บริหารด้านวิชาการ (Technical Management)</label>
+								
+								    <input id="item2_5" type="checkbox">
+								    <label for="item2_5">มีผู้จัดการคุณภาพ (Quality Manager) ที่สามารถติดต่อได้โดยตรงกับผู้บริหารระดับสูง</label>
+								
+								    <input id="item2_6" type="checkbox">
+								    <label for="item2_6">แต่งตั้งผู้ปฏิบัติงานแทนสำหรับบุคลากรที่สำคัญๆ</label>
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">3. การจัดเตรียมและควบคุมเอกสาร</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item3_1" type="checkbox">
+								    <label for="item3_1">มีการจัดทำเอกสาร QM QP WI Test method และเอกสารสนับสนุน เช่น แบบฟอร์ม คำสั่งต่างๆ</label>
+								
+								    <input id="item3_2" type="checkbox">
+								    <label for="item3_2">มีการจัดทำและประกาศใช้เอกสาร</label>
+								
+								    <input id="item3_3" type="checkbox">
+								    <label for="item3_3">มีการควบคุมเอกสารและบันทึกทั้งหมด</label>
+								
+								    <input id="item3_4" type="checkbox">
+								    <label for="item3_4">มีการทบทวน และอนุมัติ โดยผู้มีอำนาจก่อนประกาศใช้</label>
+								
+								    <input id="item3_5" type="checkbox">
+								    <label for="item3_5">มีการทำบัญชีรายชื่อเอกสาร(master list)</label>
+								
+								    <input id="item3_6" type="checkbox">
+								    <label for="item3_6">มีการชี้บ่งเอกสาร</label>
+								
+								    <input id="item3_7" type="checkbox">
+								    <label for="item3_7">มีขั้นตอนการแก้ไขเอกสาร</label>
+								
+								    <input id="item3_8" type="checkbox">
+								    <label for="item3_8">มีการควบคุมเอกสารด้วยคอมพิวเตอร์ (ถ้ามี)</label>
+								
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					
+  					</div>
+  				
+					<div class="row">
+  					
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">4. กำหนดขอบข่าย</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item4_1" type="checkbox">
+								    <label for="item4_1">กำหนดผลิตภัณฑ์</label>
+								
+								    <input id="item4_2" type="checkbox">
+								    <label for="item4_2">รายการทดสอบ </label>
+								
+								    <input id="item4_3" type="checkbox">
+								    <label for="item4_3">ช่วงการวัด (พร้อมหน่วย)</label>
+								
+								    <input id="item4_4" type="checkbox">
+								    <label for="item4_4">วิธีการทดสอบ</label>
+								
+								       <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">5. บุคลากรมีความรู้ความเข้าใจ</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item5_1" type="checkbox">
+								    <label for="item5_1">ข้อกำหนด ISO/IEC 17025</label>
+								
+								    <input id="item5_2" type="checkbox">
+								    <label for="item5_2">การจัดทำเอกสารในระบบคุณภาพตามมาตรฐาน ISO/IEC 17025</label>
+								
+								    <input id="item5_3" type="checkbox">
+								    <label for="item5_3">การตรวจติดตามคุณภาพภายในตามมาตรฐาน ISO/IEC 17025</label>
+								
+								    <input id="item5_4" type="checkbox">
+								    <label for="item5_4">การจัดการและวิธีการใช้เครื่องมือที่เกี่ยวข้อง</label>
+								
+								    <input id="item5_5" type="checkbox">
+								    <label for="item5_5">วิธีทดสอบ/สอบเทียบที่เกี่ยวข้อง: <ul>
+									    		<li>ขั้นตอนการทดสอบ/สอบเทียบ </li>
+									    		<li>Method Validation/Verification </li> 
+									    		<li>การควบคุมคุณภาพภายในและภายนอก (PT/Interlab)</li>
+									    		<li>การคำนวณค่าความไม่แน่นอนของการวัด</li>
+									    		<li>ความสอบกลับได้ของการวัดเชิงมาตรวิทยา</li>
+								    		</ul>
+								    </label>
+								
+								    <input id="item5_6" type="checkbox">
+								    <label for="item5_6">มีการทำ On-the-job training ในรายการทดสอบที่ขอการรับรอง และประเมินผลโดยผู้มีอำนาจ</label>
+								
+									<input id="item5_7" type="checkbox">
+								    <label for="item5_7">มีการมอบหมายให้ทดสอบและใช้เครื่องมือ</label>
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">6. เครื่องมือ</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item6_1" type="checkbox">
+								    <label for="item6_1">มีขั้นตอนในการจัดการเครื่องมือ รวมถึงความปลอดภัย การเคลื่อนย้าย การเก็บรักษา การใช้  แผนการบำรุงรักษา  การป้องกันการปนเปื้อนหรือการเสื่อมสภาพ</label>
+								
+								    <input id="item6_2" type="checkbox">
+								    <label for="item6_2">เครื่องมือทั้งหมดที่มีผลกระทบอย่างสำคัญต่อค่าความแม่นหรือความใช้ได้ของผลการทดสอบ/สอบเทียบ ต้องได้รับการสอบเทียบก่อนนำมาใช้งาน และมีโปรแกรมการสอบเทียบเครื่องมือ</label>
+								
+								    <input id="item6_3" type="checkbox">
+								    <label for="item6_3">เครื่องมือที่ได้รับการสอบเทียบต้องติดป้ายแสดงรหัส  หรือการชี้บ่งอย่างอื่นเพื่อแสดงสถานะการสอบเทียบ</label>
+								
+								    <input id="item6_4" type="checkbox">
+								    <label for="item6_4">มีการเก็บรักษาบันทึกประวัติของเครื่องมือ</label>
+								
+								    <input id="item6_5" type="checkbox">
+								    <label for="item6_5">มีการตรวจสอบระหว่างใช้งาน (ตามความเหมาะสม) ตามขั้นตอนการดำเนินงานและแผนงานที่กำหนดไว้</label>
+								
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					
+  					</div>  				
+  				
+  				
+  					<div class="row">
+  					
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">7. วิธีการทดสอบ</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item7_1" type="checkbox">
+								    <label for="item7_1">มีวิธีทดสอบ/สอบเทียบทั้งหมดที่อยู่ภายในขอบข่ายของการทดสอบ</label>
+								
+								    <input id="item7_2" type="checkbox">
+								    <label for="item7_2">มีการตรวจสอบความใช้ได้ ( Validation )/ทวนสอบ (Verification) และบันทึกผล</label>
+								
+								    <input id="item7_3" type="checkbox">
+								    <label for="item7_3">มีเอกสารขั้นตอนการดำเนินการในการประมาณค่าความไม่แน่นอนของการทดสอบ/สอบเทียบ</label>
+								
+								    <input id="item7_4" type="checkbox">
+								    <label for="item7_4">มีขั้นตอนดำเนินงานในการควบคุมคุณภาพ และการวิเคราะห์ข้อมูลผลการควบคุมคุณภาพ</label>
+
+									<input id="item7_5" type="checkbox">
+								    <label for="item7_5">มีการตรวจสอบการคำนวณและการถ่ายโอนข้อมูล อย่างเหมาะสมและเป็นระบบ</label>
+								
+								    <input id="item7_6" type="checkbox">
+								    <label for="item7_6">มีแผนการและขั้นตอนการดำเนินการชักตัวอย่าง (ถ้ามี) </label>
+								
+								    <input id="item7_7" type="checkbox">
+								    <label for="item7_7">มีการชี้บ่งตัวอย่างทดสอบ และ/หรือสอบเทียบ ทั้งในตัวอย่างและในแบบบันทึก</label>
+								
+								    <input id="item7_8" type="checkbox">
+								    <label for="item7_8">มีการควบคุมภาวะแวดล้อมให้เหมาะสมตามที่วิธีทดสอบกำหนด</label>
+								
+								
+								       <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">8. รายงานผล</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item8_1" type="checkbox">
+								    <label for="item8_1">มีรายละเอียดในใบรับรองการทดสอบ/สอบเทียบแต่ละฉบับตามข้อ 5.10 ของข้อกำหนด ISO/IEC 17025</label>
+								
+								    <input id="item8_2" type="checkbox">
+								    <label for="item8_2">มอบหมายผู้มีอำนาจลงนามรับรองผลการทดสอบ/สอบเทียบ</label>
+																
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					<div class="col-md-4 col-sm-4">
+  						<div class="panel panel-default">
+               				<div class="panel-heading">
+                 				<h3 class="panel-title">9. การตรวจติดตามคุณภาพภายใน (Internal audit) และการทบทวนการบริหาร (Management review)</h3>
+                 			</div>
+                 			<div class="panel-body">
+								 <div class="items">
+								    <input id="item9_1" type="checkbox">
+								    <label for="item9_1">มีการตรวจติดตามคุณภาพภายในเป็นระยะๆ  ตามกำหนดการและขั้นตอนการดำเนินงาน ที่กำหนดไว้</label>
+								
+								    <input id="item9_2" type="checkbox">
+								    <label for="item9_2">โปรแกรมการตรวจติดตามต้องครอบคลุมทุกส่วนของระบบ    คุณภาพขององค์กร  รวมทั้งกิจกรรมการทดสอบ/สอบเทียบ</label>
+								
+								    <input id="item9_3" type="checkbox">
+								    <label for="item9_3">ผู้จัดการคุณภาพเป็นผู้รับผิดชอบในการจัดทำแผนและจัดการตรวจติดตาม</label>
+								
+								    <input id="item9_4" type="checkbox">
+								    <label for="item9_4">ผู้ตรวจติดตามคุณภาพภายในมีคุณสมบัติเหมาะสมตามที่กำหนดไว้ <ul>
+								    			<li>ผ่านการอบรม Internal audit</li>
+												<li>มีความรู้ในข้อกำหนด ISO/IEC 17025 อย่างดี</li>
+												<li>มีความรู้และประสบการณ์ด้านวิชาการในกิจกรรมที่ตรวจติดตาม</li>
+												<li>เป็นอิสระจากกิจกรรมที่ตรวจติดตาม</li>
+												</ul>
+								    </label>
+								
+								    <input id="item9_5" type="checkbox">
+								    <label for="item9_5">หากมีข้อบกพร่อง ต้องได้รับการแก้ไขและบันทึกไว้อย่างเหมาะสม</label>
+								
+								    <input id="item9_6" type="checkbox">
+								    <label for="item9_6">ผู้บริหารสูงสุดมีการทบทวนระบบการบริหารงานของห้องปฏิบัติการ ตามกำหนดการและขั้นตอนที่กำหนดไว้</label>								
+								
+								    <h4 class="done" aria-hidden="true">ดำเนินการแล้ว</h4>
+								    <h4 class="undone" aria-hidden="true">ยังไม่ได้ดำเนินการ</h4>
+								  </div>
+								</div>                			
+                 			</div>
+  						</div>
+
+  					
+  					</div>  
+  				
+  				 </div>
+  
+  
+          	
+          	
+          </div>
+          <!--  END CONTENT -->
+        </div>
+        
+        </div>
+	</div>
+	
+	<div layout:fragment="pageScript">
+
+	</div>
+</body>
+</html>
